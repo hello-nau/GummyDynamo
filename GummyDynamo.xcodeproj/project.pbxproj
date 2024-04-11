@@ -22,6 +22,7 @@
 		2C19CAF62BC777D200807D60 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C19CAF52BC777D200807D60 /* Entry.swift */; };
 		2C19CAF82BC77D6600807D60 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C19CAF72BC77D6600807D60 /* Day.swift */; };
 		2C19CAFB2BC77E3700807D60 /* AddEntryParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C19CAFA2BC77E3700807D60 /* AddEntryParam.swift */; };
+		2C19CAFD2BC84BC100807D60 /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C19CAFC2BC84BC100807D60 /* Calendar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		2C19CAF52BC777D200807D60 /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
 		2C19CAF72BC77D6600807D60 /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
 		2C19CAFA2BC77E3700807D60 /* AddEntryParam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEntryParam.swift; sourceTree = "<group>"; };
+		2C19CAFC2BC84BC100807D60 /* Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 				2C19CAF32BC7770E00807D60 /* EntryStatus.swift */,
 				2C19CAF52BC777D200807D60 /* Entry.swift */,
 				2C19CAF72BC77D6600807D60 /* Day.swift */,
+				2C19CAFC2BC84BC100807D60 /* Calendar.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 				2C19CAF22BC76ED900807D60 /* Craving.swift in Sources */,
 				2C19CAF42BC7770E00807D60 /* EntryStatus.swift in Sources */,
 				2C19CAC82BC76DD600807D60 /* GummyDynamo.xcdatamodeld in Sources */,
+				2C19CAFD2BC84BC100807D60 /* Calendar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
