@@ -25,7 +25,13 @@ class Entry {
     func getCravings() -> [Craving] {
         return cravingList
     }
-    
+    func setStatusMap(_ statusList: [EntryStatus: [Date]]) {
+            self.statusList = statusList
+        }
+        
+        func setCravings(_ cravingList: [Craving]) {
+            self.cravingList = cravingList
+        }
     
     class EntryBuilder {
          var craving: Craving?
