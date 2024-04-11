@@ -24,6 +24,7 @@
 		2C19CAFB2BC77E3700807D60 /* AddEntryParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C19CAFA2BC77E3700807D60 /* AddEntryParam.swift */; };
 		2C19CAFD2BC84BC100807D60 /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C19CAFC2BC84BC100807D60 /* Calendar.swift */; };
 		2C19CB002BC852EC00807D60 /* EntryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C19CAFF2BC852EC00807D60 /* EntryTest.swift */; };
+		2CB1A9072BC86C8500159495 /* DayTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB1A9062BC86C8500159495 /* DayTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,7 @@
 		2C19CAFA2BC77E3700807D60 /* AddEntryParam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEntryParam.swift; sourceTree = "<group>"; };
 		2C19CAFC2BC84BC100807D60 /* Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
 		2C19CAFF2BC852EC00807D60 /* EntryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryTest.swift; sourceTree = "<group>"; };
+		2CB1A9062BC86C8500159495 /* DayTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				2C19CAFF2BC852EC00807D60 /* EntryTest.swift */,
+				2CB1A9062BC86C8500159495 /* DayTest.swift */,
 			);
 			path = modelTest;
 			sourceTree = "<group>";
@@ -331,6 +334,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CB1A9072BC86C8500159495 /* DayTest.swift in Sources */,
 				2C19CB002BC852EC00807D60 /* EntryTest.swift in Sources */,
 				2C19CAD82BC76DD800807D60 /* GummyDynamoTests.swift in Sources */,
 			);
