@@ -17,6 +17,7 @@
 		2C19CAD82BC76DD800807D60 /* GummyDynamoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C19CAD72BC76DD800807D60 /* GummyDynamoTests.swift */; };
 		2C19CAE22BC76DD800807D60 /* GummyDynamoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C19CAE12BC76DD800807D60 /* GummyDynamoUITests.swift */; };
 		2C19CAE42BC76DD800807D60 /* GummyDynamoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C19CAE32BC76DD800807D60 /* GummyDynamoUITestsLaunchTests.swift */; };
+		2C19CAF22BC76ED900807D60 /* Craving.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C19CAF12BC76ED900807D60 /* Craving.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		2C19CADD2BC76DD800807D60 /* GummyDynamoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GummyDynamoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C19CAE12BC76DD800807D60 /* GummyDynamoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GummyDynamoUITests.swift; sourceTree = "<group>"; };
 		2C19CAE32BC76DD800807D60 /* GummyDynamoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GummyDynamoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2C19CAF12BC76ED900807D60 /* Craving.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Craving.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		2C19CABC2BC76DD600807D60 /* GummyDynamo */ = {
 			isa = PBXGroup;
 			children = (
+				2C19CAF02BC76E4E00807D60 /* models */,
 				2C19CABD2BC76DD600807D60 /* AppDelegate.swift */,
 				2C19CABF2BC76DD600807D60 /* SceneDelegate.swift */,
 				2C19CAC12BC76DD600807D60 /* ViewController.swift */,
@@ -128,6 +131,14 @@
 				2C19CAE32BC76DD800807D60 /* GummyDynamoUITestsLaunchTests.swift */,
 			);
 			path = GummyDynamoUITests;
+			sourceTree = "<group>";
+		};
+		2C19CAF02BC76E4E00807D60 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				2C19CAF12BC76ED900807D60 /* Craving.swift */,
+			);
+			path = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +275,7 @@
 				2C19CAC22BC76DD600807D60 /* ViewController.swift in Sources */,
 				2C19CABE2BC76DD600807D60 /* AppDelegate.swift in Sources */,
 				2C19CAC02BC76DD600807D60 /* SceneDelegate.swift in Sources */,
+				2C19CAF22BC76ED900807D60 /* Craving.swift in Sources */,
 				2C19CAC82BC76DD600807D60 /* GummyDynamo.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
