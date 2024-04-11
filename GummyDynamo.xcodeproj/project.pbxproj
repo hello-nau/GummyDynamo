@@ -20,6 +20,8 @@
 		2C19CAF22BC76ED900807D60 /* Craving.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C19CAF12BC76ED900807D60 /* Craving.swift */; };
 		2C19CAF42BC7770E00807D60 /* EntryStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C19CAF32BC7770E00807D60 /* EntryStatus.swift */; };
 		2C19CAF62BC777D200807D60 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C19CAF52BC777D200807D60 /* Entry.swift */; };
+		2C19CAF82BC77D6600807D60 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C19CAF72BC77D6600807D60 /* Day.swift */; };
+		2C19CAFB2BC77E3700807D60 /* AddEntryParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C19CAFA2BC77E3700807D60 /* AddEntryParam.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		2C19CAF12BC76ED900807D60 /* Craving.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Craving.swift; sourceTree = "<group>"; };
 		2C19CAF32BC7770E00807D60 /* EntryStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryStatus.swift; sourceTree = "<group>"; };
 		2C19CAF52BC777D200807D60 /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		2C19CAF72BC77D6600807D60 /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		2C19CAFA2BC77E3700807D60 /* AddEntryParam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEntryParam.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,7 @@
 		2C19CABC2BC76DD600807D60 /* GummyDynamo */ = {
 			isa = PBXGroup;
 			children = (
+				2C19CAF92BC77E1000807D60 /* Activity */,
 				2C19CAF02BC76E4E00807D60 /* models */,
 				2C19CABD2BC76DD600807D60 /* AppDelegate.swift */,
 				2C19CABF2BC76DD600807D60 /* SceneDelegate.swift */,
@@ -143,8 +148,17 @@
 				2C19CAF12BC76ED900807D60 /* Craving.swift */,
 				2C19CAF32BC7770E00807D60 /* EntryStatus.swift */,
 				2C19CAF52BC777D200807D60 /* Entry.swift */,
+				2C19CAF72BC77D6600807D60 /* Day.swift */,
 			);
 			path = models;
+			sourceTree = "<group>";
+		};
+		2C19CAF92BC77E1000807D60 /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				2C19CAFA2BC77E3700807D60 /* AddEntryParam.swift */,
+			);
+			path = Activity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,6 +294,8 @@
 			files = (
 				2C19CAF62BC777D200807D60 /* Entry.swift in Sources */,
 				2C19CAC22BC76DD600807D60 /* ViewController.swift in Sources */,
+				2C19CAFB2BC77E3700807D60 /* AddEntryParam.swift in Sources */,
+				2C19CAF82BC77D6600807D60 /* Day.swift in Sources */,
 				2C19CABE2BC76DD600807D60 /* AppDelegate.swift in Sources */,
 				2C19CAC02BC76DD600807D60 /* SceneDelegate.swift in Sources */,
 				2C19CAF22BC76ED900807D60 /* Craving.swift in Sources */,
