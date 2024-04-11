@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum EntryStatus {
+enum EntryStatus: String {
     case hungry
     case light
     case ok
