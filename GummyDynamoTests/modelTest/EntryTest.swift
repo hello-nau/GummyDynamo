@@ -16,6 +16,17 @@ class EntryTest: XCTestCase {
         let cravingList = entry.getCravings()
         XCTAssertEqual(cravingList[0].getCraving(), "KEK", "Craving from an entry and expected one")
     }
+    func testEntryStatusMapReturnsEmpty() {
+        let entry = Entry.EntryBuilder().build()
+        let statusMap = entry.getStatusMap()
+        XCTAssertEqual(statusMap.count, 0)
+        
+    }
+    func testEntryCravingListReturnsEmpty() {
+        let entry = Entry.EntryBuilder().build()
+        let cravingList = entry.getCravings()
+        XCTAssertEqual(cravingList.count, 0)
+    }
     
-    
+
 }

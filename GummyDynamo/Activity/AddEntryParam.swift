@@ -33,7 +33,7 @@ class AddEntryParam {
 
 extension Date {
         func roundedToSeconds() -> Date {
-            let cal = Calendar.current
+            let cal = Foundation.Calendar.current
             let roundedDate = cal.date(bySetting: .second, value: 0, of: self)
             return roundedDate ?? self
         }

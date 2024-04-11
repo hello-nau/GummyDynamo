@@ -41,6 +41,13 @@
 			remoteGlobalIDString = 2C19CAB92BC76DD600807D60;
 			remoteInfo = GummyDynamo;
 		};
+		2CB1A9042BC85BDF00159495 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C19CAB22BC76DD600807D60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C19CAD22BC76DD800807D60;
+			remoteInfo = GummyDynamoTests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -224,6 +231,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				2CB1A9052BC85BDF00159495 /* PBXTargetDependency */,
 				2C19CADF2BC76DD800807D60 /* PBXTargetDependency */,
 			);
 			name = GummyDynamoUITests;
@@ -349,6 +357,11 @@
 			isa = PBXTargetDependency;
 			target = 2C19CAB92BC76DD600807D60 /* GummyDynamo */;
 			targetProxy = 2C19CADE2BC76DD800807D60 /* PBXContainerItemProxy */;
+		};
+		2CB1A9052BC85BDF00159495 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C19CAD22BC76DD800807D60 /* GummyDynamoTests */;
+			targetProxy = 2CB1A9042BC85BDF00159495 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -505,6 +518,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -532,6 +546,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -590,8 +605,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Yana.GummyDynamoUITests;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = Yana.gummyDynamoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -607,8 +624,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Yana.GummyDynamoUITests;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = Yana.gummyDynamoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;

@@ -20,7 +20,7 @@ class Day {
     }
     
     func getTodayDate() -> Int {
-        let calendar = Calendar.current
+        let calendar = Foundation.Calendar.current
         return calendar.component(.day, from: date)
     }
     
