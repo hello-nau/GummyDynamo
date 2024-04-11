@@ -19,6 +19,7 @@
 		2C19CAE42BC76DD800807D60 /* GummyDynamoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C19CAE32BC76DD800807D60 /* GummyDynamoUITestsLaunchTests.swift */; };
 		2C19CAF22BC76ED900807D60 /* Craving.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C19CAF12BC76ED900807D60 /* Craving.swift */; };
 		2C19CAF42BC7770E00807D60 /* EntryStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C19CAF32BC7770E00807D60 /* EntryStatus.swift */; };
+		2C19CAF62BC777D200807D60 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C19CAF52BC777D200807D60 /* Entry.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		2C19CAE32BC76DD800807D60 /* GummyDynamoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GummyDynamoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2C19CAF12BC76ED900807D60 /* Craving.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Craving.swift; sourceTree = "<group>"; };
 		2C19CAF32BC7770E00807D60 /* EntryStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryStatus.swift; sourceTree = "<group>"; };
+		2C19CAF52BC777D200807D60 /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 			children = (
 				2C19CAF12BC76ED900807D60 /* Craving.swift */,
 				2C19CAF32BC7770E00807D60 /* EntryStatus.swift */,
+				2C19CAF52BC777D200807D60 /* Entry.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C19CAF62BC777D200807D60 /* Entry.swift in Sources */,
 				2C19CAC22BC76DD600807D60 /* ViewController.swift in Sources */,
 				2C19CABE2BC76DD600807D60 /* AppDelegate.swift in Sources */,
 				2C19CAC02BC76DD600807D60 /* SceneDelegate.swift in Sources */,
