@@ -25,6 +25,7 @@
 		2C19CAFD2BC84BC100807D60 /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C19CAFC2BC84BC100807D60 /* Calendar.swift */; };
 		2C19CB002BC852EC00807D60 /* EntryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C19CAFF2BC852EC00807D60 /* EntryTest.swift */; };
 		2CB1A9072BC86C8500159495 /* DayTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB1A9062BC86C8500159495 /* DayTest.swift */; };
+		2CB1A90A2BC86D2E00159495 /* AddEntryParamTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB1A9092BC86D2E00159495 /* AddEntryParamTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		2C19CAFC2BC84BC100807D60 /* Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
 		2C19CAFF2BC852EC00807D60 /* EntryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryTest.swift; sourceTree = "<group>"; };
 		2CB1A9062BC86C8500159495 /* DayTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayTest.swift; sourceTree = "<group>"; };
+		2CB1A9092BC86D2E00159495 /* AddEntryParamTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEntryParamTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 		2C19CAD62BC76DD800807D60 /* GummyDynamoTests */ = {
 			isa = PBXGroup;
 			children = (
+				2CB1A9082BC86D1000159495 /* activityTest */,
 				2C19CAFE2BC852C800807D60 /* modelTest */,
 				2C19CAD72BC76DD800807D60 /* GummyDynamoTests.swift */,
 			);
@@ -183,6 +186,14 @@
 				2CB1A9062BC86C8500159495 /* DayTest.swift */,
 			);
 			path = modelTest;
+			sourceTree = "<group>";
+		};
+		2CB1A9082BC86D1000159495 /* activityTest */ = {
+			isa = PBXGroup;
+			children = (
+				2CB1A9092BC86D2E00159495 /* AddEntryParamTest.swift */,
+			);
+			path = activityTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -336,6 +347,7 @@
 			files = (
 				2CB1A9072BC86C8500159495 /* DayTest.swift in Sources */,
 				2C19CB002BC852EC00807D60 /* EntryTest.swift in Sources */,
+				2CB1A90A2BC86D2E00159495 /* AddEntryParamTest.swift in Sources */,
 				2C19CAD82BC76DD800807D60 /* GummyDynamoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
