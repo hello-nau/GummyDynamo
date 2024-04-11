@@ -25,7 +25,7 @@ class AddEntryParamTest: XCTestCase{
         let calendar = Foundation.Calendar.current
         let components = calendar.dateComponents([.year,.month, .day, .hour, .minute], from: now)
         let currentTime = calendar.date(from: components)!
-        
+        print("From test currentTime: ", currentTime)
         XCTAssertEqual(currentTime, entryTimeStamp?[0])
         
     }
