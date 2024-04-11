@@ -1,7 +1,7 @@
 //
 //  Craving.swift
 //  GummyDynamo
-//
+// Class for creating a craving
 //  Created by ヤナ on 4/10/24.
 //
 
