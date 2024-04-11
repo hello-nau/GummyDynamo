@@ -76,6 +76,7 @@
 		2C19CAFF2BC852EC00807D60 /* EntryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryTest.swift; sourceTree = "<group>"; };
 		2CB1A9062BC86C8500159495 /* DayTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayTest.swift; sourceTree = "<group>"; };
 		2CB1A9092BC86D2E00159495 /* AddEntryParamTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEntryParamTest.swift; sourceTree = "<group>"; };
+		2CB1A90B2BC87AA400159495 /* GummyTestPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = GummyTestPlayground.playground; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +144,7 @@
 		2C19CAD62BC76DD800807D60 /* GummyDynamoTests */ = {
 			isa = PBXGroup;
 			children = (
+				2CB1A90B2BC87AA400159495 /* GummyTestPlayground.playground */,
 				2CB1A9082BC86D1000159495 /* activityTest */,
 				2C19CAFE2BC852C800807D60 /* modelTest */,
 				2C19CAD72BC76DD800807D60 /* GummyDynamoTests.swift */,

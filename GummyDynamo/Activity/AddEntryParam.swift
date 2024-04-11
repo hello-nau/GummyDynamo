@@ -25,7 +25,7 @@ class AddEntryParam {
             statusMap[entryStatus]?.append(Date().roundedToMinutes())
             print("not nil",  Date().roundedToMinutes())
         }
-        
+        entry. = statusMap
     }
     
     func addCraving(craving: String) {
@@ -42,5 +42,9 @@ extension Date {
             return roundedDate ?? self
         }
     }
+    
+
+ 
+
 
 

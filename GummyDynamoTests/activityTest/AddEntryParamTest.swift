@@ -9,15 +9,10 @@ import XCTest
 @testable import GummyDynamo
 
 class AddEntryParamTest: XCTestCase{
-    var entry: Entry!
-    
-    override func setUp() {
-        super.setUp()
-        entry = Entry.EntryBuilder().build()
-    }
-    
+
     func testAddStatusReturnsCorrectTime() {
-        let addEntryParam = AddEntryParam(entry: entry)
+        var entry = Entry.EntryBuilder().build()
+        var addEntryParam = AddEntryParam(entry: &entry)
         addEntryParam.addStatus(entryStatus: .ok)
         
         let entryTimeStamp = entry.getStatusMap()[.ok]
