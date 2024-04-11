@@ -15,7 +15,7 @@ class Day {
     
     init() {
         self.entry = Entry.EntryBuilder().build()
-        self.addEntryParam = AddEntryParam(entry: &self.entry)
+        self.addEntryParam = AddEntryParam(entry: self.entry)
         self.date = Date()
     }
     

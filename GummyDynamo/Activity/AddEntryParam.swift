@@ -25,12 +25,13 @@ class AddEntryParam {
             statusMap[entryStatus]?.append(Date().roundedToMinutes())
             print("not nil",  Date().roundedToMinutes())
         }
-        entry. = statusMap
+        entry.setStatusMap(statusMap)
     }
     
     func addCraving(craving: String) {
         var cravingList = entry.getCravings()
         cravingList.append(Craving(craving: craving))
+        entry.setCravings(cravingList)
     }
 }
 
