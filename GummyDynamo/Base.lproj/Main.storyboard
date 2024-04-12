@@ -15,9 +15,24 @@
                     <view key="view" contentMode="center" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N36-Zu-xWP" customClass="FSCalendar">
+                                <rect key="frame" x="0.0" y="59" width="393" height="459"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="N36-Zu-xWP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="5eb-ML-ZdW"/>
+                            <constraint firstItem="N36-Zu-xWP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="VpI-zX-4dW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="N36-Zu-xWP" secondAttribute="trailing" id="YSX-hz-wPj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="N36-Zu-xWP" secondAttribute="bottom" constant="300" id="tAS-Qi-I5p"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="calendar" destination="N36-Zu-xWP" id="Ecr-bp-83h"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

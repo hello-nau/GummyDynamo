@@ -1,0 +1,6 @@
+framework module Pods_GummyDynamo_GummyDynamoUITests {
+  umbrella header "Pods-GummyDynamo-GummyDynamoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

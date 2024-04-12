@@ -1,0 +1,6 @@
+framework module Pods_GummyDynamoTests {
+  umbrella header "Pods-GummyDynamoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
