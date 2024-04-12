@@ -6,12 +6,18 @@
 //
 
 import Foundation
+import UIKit
 
-class AddEntryParam {
+class AddEntryParam: UIViewController{
     private var entry: Entry
     
     init(entry: Entry) {
         self.entry = entry
+        super.init(nibName: nil, bundle: nil)
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
     }
     
     func addStatus(entryStatus: EntryStatus) {
