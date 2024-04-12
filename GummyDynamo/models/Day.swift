@@ -44,4 +44,6 @@ class Day {
         return entry.getStatusMap()
     }
     
+   
+    
 }
