@@ -22,7 +22,6 @@
 		2C19CAF62BC777D200807D60 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C19CAF52BC777D200807D60 /* Entry.swift */; };
 		2C19CAF82BC77D6600807D60 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C19CAF72BC77D6600807D60 /* Day.swift */; };
 		2C19CAFB2BC77E3700807D60 /* AddEntryParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C19CAFA2BC77E3700807D60 /* AddEntryParam.swift */; };
-		2C19CAFD2BC84BC100807D60 /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C19CAFC2BC84BC100807D60 /* Calendar.swift */; };
 		2C19CB002BC852EC00807D60 /* EntryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C19CAFF2BC852EC00807D60 /* EntryTest.swift */; };
 		2C7B69C02BC89FD000DD1109 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C19CAC32BC76DD600807D60 /* Main.storyboard */; };
 		2C7B69C12BC89FD100DD1109 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C19CAC32BC76DD600807D60 /* Main.storyboard */; };
@@ -79,7 +78,6 @@
 		2C19CAF52BC777D200807D60 /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
 		2C19CAF72BC77D6600807D60 /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
 		2C19CAFA2BC77E3700807D60 /* AddEntryParam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEntryParam.swift; sourceTree = "<group>"; };
-		2C19CAFC2BC84BC100807D60 /* Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
 		2C19CAFF2BC852EC00807D60 /* EntryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryTest.swift; sourceTree = "<group>"; };
 		2C264A9AF25D6F7D232CBF9A /* Pods-GummyDynamoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GummyDynamoTests.debug.xcconfig"; path = "Target Support Files/Pods-GummyDynamoTests/Pods-GummyDynamoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2CB1A9062BC86C8500159495 /* DayTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayTest.swift; sourceTree = "<group>"; };
@@ -188,7 +186,6 @@
 				2C19CAF32BC7770E00807D60 /* EntryStatus.swift */,
 				2C19CAF52BC777D200807D60 /* Entry.swift */,
 				2C19CAF72BC77D6600807D60 /* Day.swift */,
-				2C19CAFC2BC84BC100807D60 /* Calendar.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -493,7 +490,6 @@
 				2C19CAF22BC76ED900807D60 /* Craving.swift in Sources */,
 				2C19CAF42BC7770E00807D60 /* EntryStatus.swift in Sources */,
 				2C19CAC82BC76DD600807D60 /* GummyDynamo.xcdatamodeld in Sources */,
-				2C19CAFD2BC84BC100807D60 /* Calendar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

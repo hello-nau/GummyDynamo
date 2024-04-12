@@ -24,7 +24,6 @@ class ViewController: UIViewController, FSCalendarDelegate {
         formatter.dateFormat = "EEEE MM-dd-YYYY"
         let string = formatter.string(from: date)
         print(string)
-//        print("selected")
     }
 
 
