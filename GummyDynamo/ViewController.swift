@@ -13,12 +13,20 @@ class ViewController: UIViewController, FSCalendarDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        calendar.delegate.self
-        // Do any additional setup after loading the view.
+//        calendar.delegate.self  - initial try, was set to false
+//        calendar.dataSource = self ?? chatGPT suggested showed err
+        calendar.delegate = self
+        print("Calendar delegate set to self: \(calendar.delegate === self)")
     }
 
-    func calendar(_calendar: FSCalendar, didSelect date: Date, at monthPosition: FSCalendarMonthPosition) {
-        print("selected")
+    func calendar(_ calendar: FSCalendar, didSelect date: Date, at monthPosition: FSCalendarMonthPosition) {
+        let formatter = DateFormatter()
+        formatter.dateFormat = "EEEE MM-dd-YYYY"
+        let string = formatter.string(from: date)
+        print(string)
+//        print("selected")
     }
+
+
 }
 
